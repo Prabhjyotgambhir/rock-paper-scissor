@@ -13,10 +13,6 @@
 			<h1>What you choose..?</h1>
 		</div>
 
-		<div>
-			<h2>How many rounds you want to play</h2>
-			<input type="text" name="play"/>
-		</div>
 		<div class="col-md-4">
 			<img src="./assets/images/hand1.jpg" onclick='paper();'>
 		</div>
@@ -28,9 +24,18 @@
 		<div class="col-md-4">
 			<img src="./assets/images/hand3.jpg" onclick='scissor();'>
 		</div>
-
-		<p></p>
 	</div>	
+
+	<div class="row text-align">
+		<div class="col-md-6">
+			<h1 >Computer Score</h1>
+			<h2 id="compScore">0</h2>
+		</div>
+		<div class="col-md-6">
+			<h1>User Score</h1>
+			<h2 id="userScore">0</h2>
+		</div>
+	</div>
 <script type="text/javascript" src="./assets/js/app.js"></script>
 </body>
 
